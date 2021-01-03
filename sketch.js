@@ -5,11 +5,11 @@ var database;
 var goal,goalImage,ball,ballImage,player,playerImage, game,keeper, randNum;
 var score;
 function preload(){
-  goalKeeper = loadImage("goalKeeper.jpg");
-  playerImage= loadImage("player.png");
-  ballImage=loadImage("soccerBall.png");
- goalImage=loadImage("wood2.png")
-backgroundImage=loadImage("soccer-field-background.jpg")
+  goalKeeper = loadImage("sprites/goalKeeper.jpg");
+  playerImage= loadImage("sprites/player.png");
+  ballImage=loadImage("sprites/soccerBall.png");
+ goalImage=loadImage("sprites/wood2.png")
+backgroundImage=loadImage("sprites/soccer-field-background.jpg")
 }
 function setup(){
   canvas = createCanvas(displayWidth, displayHeight);
