@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+ var firebaseConfig = {
+    apiKey: "AIzaSyDbV8GO6vcK2sWMS8NIH2R-lq9sKaEi0rg",
+    authDomain: "ball-shooting.firebaseapp.com",
+    databaseURL: "https://ball-shooting-default-rtdb.firebaseio.com",
+    projectId: "ball-shooting",
+    storageBucket: "ball-shooting.appspot.com",
+    messagingSenderId: "202273279152",
+    appId: "1:202273279152:web:ea12ab67f21dd919713f75"
+  };    
+  
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script src="Game.js"></script>
+    
+      <script src="matter.js"></script>
+
+</body></html>
